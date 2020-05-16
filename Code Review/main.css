@@ -1,0 +1,190 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	
+}
+body {
+	font-family: Arial;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#container {
+	height: 100%
+}
+
+/*<--- Here starts the header --->*/
+#main-header {
+	height: 150px;
+	background-color: #cb9595;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#main-header .name {
+	position: absolute;
+	top: 30px;
+	width: 60%;
+}
+
+#main-header h2 {
+	text-align: center;
+	word-spacing: 10px;
+}
+
+#main-header .logo {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 35%;
+}
+/*<--- Here ends the header --->*/
+/*<--- Here starts the navbar --->*/
+#navbar {
+	background-color: #ad3030;
+	color: white;
+	margin-bottom: 100px;
+	padding: 0;
+	height: 60px;
+}
+
+#navbar ul {
+	padding: 0;
+	margin: 15px 200px 0 0;
+	float: right;
+	word-spacing: 20px;
+}
+
+#navbar li {
+	display: inline;
+	font-size: 120%;
+
+}
+#navbar a {
+	font-size: 150%;
+	color: white;
+
+}
+/* <--- Here ends the navbar --->*/
+#main {
+	
+	margin: 0 auto 0 auto;
+	
+
+}
+#website {
+	margin-bottom: 100px;
+}
+#mywebsite h1 {
+	font-size: 400%;
+	text-align: center;
+}
+
+
+#phonePicture .fit {
+	object-fit: cover;
+}
+
+#phoneText h3{
+	padding: 0;
+	margin: 0;
+	word-spacing: 20px;
+}
+
+#atmPicture {
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+}
+
+#atmText {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	right: 30px;
+	top: 200px;
+}
+#atmText h3 {
+	padding: 0;
+	margin: 0;
+	word-spacing: 10px;
+}
+
+#scooterPicture {
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	left: 30px;
+}
+
+#scooterText {
+	width: 50%;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	left: 35px;
+	top: 200px;	
+}
+#scooterText h3 {
+	padding: 0;
+	margin: 0;
+	word-spacing: 10px;
+}
+#main-block {
+	
+	text-align: center;
+	margin: 40px 25px 40px 25px; 
+}
+
+
+#block1 {
+	position: relative;
+	width: 50%;
+	float: left;
+	margin: 15px 0 15px 0;
+}
+
+#block2 {
+	position: relative;
+	width: 50%;
+	float: left;
+	margin: 15px 0 15px 0
+}
+/* <--- Here starts the footer ---> */
+#main-footer {
+
+	background-color: #cb9595;
+	width: 100vw;
+	display: block;
+	position: relative;
+	bottom: -300px;
+	padding: 30px 0;
+	box-sizing: border-box;
+	height: 140px;
+}
+.logofooter{
+	text-align: center;
+}
+.namefooter {
+	text-align: center;
+}
+
+.namefooter p {
+	font-weight: bold;
+	color: #696565;
+}
+/* <--- Here ends the footer ---> */

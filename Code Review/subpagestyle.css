@@ -1,0 +1,75 @@
+
+body {
+	background: #cb9595;
+	font-family: Arial;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* contact page style */
+#main-contact {
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+/*about page style */
+#main-about {
+	height: 250px;
+	width: 500px;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+
+#picture {
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	text-align: center;
+}
+
+/* blog page style */
+
+#main-blog {
+	height: 600px;
+	width: 400px;
+	position: relative;
+	top: 100px;
+	left: 800px;
+
+}
+
+#main-blog h1, p {
+	text-align: center;
+	padding: 5px;
+	color: white;
+
+	
+}
+
+#blog-background {
+	background-image: url('images/blog-background.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	height: 700px;	
+}
+/* home page style */
+
+#main-home {
+	height: 250px;
+	width: 500px;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+}
+
+#picture-home {
+	position: absolute;
+	top: 250px;
+	left: 500px;
+	text-align: center;
+}
